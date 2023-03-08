@@ -80,6 +80,39 @@ public class AprenderCucumber {
 		Assert.assertEquals(data, dataFormatada);
 	
 	}
+	
+	@Dado("^que o ticket é AF(\\d+)$")
+	public void que_o_ticket_é_AF(int arg1) throws Throwable {
+	   
+	}
+
+	@Dado("^que o valor da passagem é R\\$ (\\d+),(\\d+)$")
+	public void que_o_valor_da_passagem_é_R$(int arg1, int arg2) throws Throwable {
+	   
+	}
+
+	@Dado("^que o nome do passageiro é \"(.*)\"$")
+	public void que_o_nome_do_passageiro_é(String arg1) throws Throwable {
+   
+	}
+	
+
+	@Dado("^que o telefone do passageiro é (\\d+)-(\\d+)$")
+	public void que_o_telefone_do_passageiro_é(int arg1, int arg2) throws Throwable {
+	   
+	}
+
+	@Quando("^criar os steps$")
+	public void criar_os_steps() throws Throwable {
+		
+	}
+	    
+	@Então("^o teste vai funcionar$")
+	public void o_teste_vai_funcionar() throws Throwable {
+	   
+	}
+
+
 
 
 }
